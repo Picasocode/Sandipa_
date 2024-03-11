@@ -1,0 +1,4 @@
+ git clone https://github.com/shazin-v/Multiple-Disease-Prediction-System.git 
+ cd  Multiple-Disease-Prediction-System  
+ pip install streamlit_option_menu  streamlit  scikit-learn
+ streamlit run personal_health_guardian.py   

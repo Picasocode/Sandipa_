@@ -4,7 +4,11 @@
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
+from cryptography.fernet import Fernet
 
+# Generate a key for encryption and decryption
+key = Fernet.generate_key()
+cipher_suite = Fernet(key)
 
 
 # loading the saved models

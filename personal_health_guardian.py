@@ -141,7 +141,8 @@ if (selected == 'Heart Disease Prediction'):
     with col1:
         thal = st.text_input('eg. 1 , 2     thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
         
-        
+     with col2:
+        one = st.text_input('eg. Chest pain  ')    
      
      
     # code for Prediction
